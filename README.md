@@ -30,14 +30,14 @@ Gracias
 ## Estructura
 ### Lista Doblemente Encadenada:
 Uso: Almacenar los comentarios y calificaciones de los clientes.
-Operaciones:
+#### Operaciones:
 Agregar Comentario: O(1) (insertar al principio).
 Eliminar Comentario: O(n/2 + b) (búsqueda y eliminación).
 Recorrer Comentarios: O(n).
-Árbol de Búsqueda Binaria (BST):
+### Árbol de Búsqueda Binaria (BST):
 Uso: Clasificar y acceder a comentarios por calificación (1-5).
 Ventajas: Permite búsquedas rápidas de comentarios similares en calificación.
-Operaciones:
+#### Operaciones:
 Crear Árbol: O(n) (inicialización).
 Agregar Nodo: O(log n) en promedio (insertar comentario).
 Encontrar Nodo: O(log n) en promedio (buscar comentario por calificación).
