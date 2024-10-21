@@ -1,0 +1,12 @@
+This is a great restaurant!
+5
+It was a great experience.
+4
+Staff is lazy.
+2
+Excellent quality.
+5
+Could be better.
+3
+Horrible service.
+1
