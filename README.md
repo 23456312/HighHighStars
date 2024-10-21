@@ -32,7 +32,7 @@ Gracias
 Uso: Almacenar los comentarios y calificaciones de los clientes.
 #### Operaciones:
 Agregar Comentario: O(1) (insertar al principio).
-Eliminar Comentario: O(n/2 + b) (búsqueda y eliminación).
+Eliminar Comentario: O(n) (en el peor de los casos).
 Recorrer Comentarios: O(n).
 ### Árbol de Búsqueda Binaria (BST):
 Uso: Clasificar y acceder a comentarios por calificación (1-5).
@@ -41,6 +41,8 @@ Ventajas: Permite búsquedas rápidas de comentarios similares en calificación.
 Crear Árbol: O(n) (inicialización).
 Agregar Nodo: O(log n) en promedio (insertar comentario).
 Encontrar Nodo: O(log n) en promedio (buscar comentario por calificación).
+### Ordenamiento(QuickSort):
+Promedio: O(n log n), peor de los casos 0(n^2) aunque se puede minimizar con un pivote.
 
 
 # ˚ ༘♡ ⋆SICT0302B: Toma decisiones｡˚ ❀
