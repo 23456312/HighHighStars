@@ -50,14 +50,17 @@ Peor de los casos: 0(n^2) aunque se puede minimizar con un pivote.
 
 
 ˚₊· ͟͟͞͞➳❥Selecciona un algoritmo de ordenamiento adecuado al problema y lo usa correctamente.˚₊· ͟͟͞͞➳❥
+
 Como mencionado anteriormente el proceso de High High Stars toma decisiones las cuales permiten adaptar a los restaurantes a las necesidades de los clientes, mejorando continuamente la experiencia y fomentando la satisfacción. No solo eso sino que en mi proyecto se utilizara la función de QuickSort. Esto se debe a que es eficiente con un promedio de complejidad de O(n log n). Lo cual lo hace eficiente para las listas grandes, también tiene un buen rendimiento con su peor caso siendo de O(n^2), pero puede ser evitado utilizando un buen pivote. 
 
 ˚₊· ͟͟͞͞➳❥Selecciona una estructura de datos adecuada al problema y la usa correctamente.˚₊· ͟͟͞͞➳❥
 
 𖨆♡𖨆Selecciona y usa una estructura lineal adecuada al problema𖨆♡𖨆
+
 En el caso de High High Stars se utiliza una lista doblemente encadenada. Esto se debe ya que es ideal para poder almacenar los comentarios de los clientes, gracias a sus caracteristicas. Por ejemplo, gracias a que tiene una inserción eficiente, ya que cuando un comentario es agredado, la lista lo inserya al principio lo cual lo hace eficiente para la utilización de High High Stars. Gracias a que son ingresados al inicio esto hace que sea un metodo lineal sin necesidad de desplazamiento, lo cual hace que la operación de insercción sea rápida y eficiente. Otra caracteristica es que las listas doblemente encadenadas permiten recorrer los comentarios en ambias direciones lo cual lo hace útil en el caso de que necesitemos mostrar los comentarios recientes o los más antiguos. 
 
 𖨆♡𖨆Selecciona un algoritmo de ordenamiento adecuado al problema𖨆♡𖨆
+
 Como mencionado anteriormente, en el caso de los algoritmos de ordenamiento se utiliza QuickSort. QuickSort es utilizado para ordenar los comentarios segun su calificación (1 a 5 estrellas). Dicho esto algunas de las razones por las que se utiliza este método es por su eficiencia promedio, como mencionado anteriormente quicksort tiene un promedio de O(log n) lo cual es muy eficiente por la gran parte, no solo eso sino que como su nombre lo indica puede ordenar en este caso los comentarios de una manera rápida. Otro aspecto que lo hace importante es que quick sort no necesita espacio adicional significativo para ordenar los elemtos, en otras palabras si hay una larga cantidad de comentarios quick sort nos ayuda a no utilizar más de la memoria necesaria. Para finalizar la adaptibilidad de dicho algoritmo lo hace gran utilizado en mi programa debido a que se puede adaptar de buena manera en listas grandes y medianas, lo cual es ideal para High High Stars debido a que recopila y ordena los comentarios de los clientes.
 
 𖨆♡𖨆Usa un árbol adecuado para resolver un problema𖨆♡𖨆
