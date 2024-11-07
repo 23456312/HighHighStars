@@ -116,7 +116,7 @@ void survey() {
     }
 }
 
-Comment* getHead() {
+Comment* getHead() const{
     return head;
 }
 

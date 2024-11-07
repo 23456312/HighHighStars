@@ -44,6 +44,10 @@ private:
         inOrderTraversal(node->right);
     }
 
+    int countNodes(BSTNode* node) {
+        if (!node) return 0;
+        return 1 + countNodes(node->left) + countNodes(node->right);
+    }
 
 public:
    BST(): root(nullptr){}
@@ -55,6 +59,26 @@ public:
     void displayInOrder() {
         inOrderTraversal(root);
 }
+
+void searchByRating(int rating) {
+        BSTNode* current = root;
+        while (current) {
+            if (current->comment->rating == rating) {
+                cout << "Found Comment: " << current->comment->text << " with rating: " << rating << endl;
+                return;
+            }
+            if (rating < current->comment->rating) {
+                current = current->left;
+            } else {
+                current = current->right;
+            }
+        }
+        cout << "No comment found with rating " << rating << endl;
+    }
+
+    int getNodeCount() {
+        return countNodes(root);
+    }
 
 };
 
