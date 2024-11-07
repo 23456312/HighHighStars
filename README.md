@@ -65,6 +65,7 @@ Como mencionado anteriormente, en el caso de los algoritmos de ordenamiento se u
 
 𖨆♡𖨆Usa un árbol adecuado para resolver un problema𖨆♡𖨆
 
+En el caso de High High Star se utiliza un arbol de Busqueda Binaria. Los BST o Arboles de Busqueda Binaria son eficientes para resolver problemas de busquedas y ordenamiento. No solo eso sino que un beneficio en cuianto a High High Stars es que nos ayuda a acceder rápidamente a los comentarios según su calificación. Algunas caracteristicas de este método es que es una función eficiente en cuanto a una busqueda lineal, lo cuál lo hace útil en cuanto se requieren consultas frecuentes de comentarios con calificaciones especificas. Tiene un ordenamiento dinamico, lo cual como su nombre lo indica el BST mantiene ordenados los comentario lo cual lo hace ideal para busquedas rapidas y eficientes por calificacion. Para finalizar el BST tiene flexibilidad en varios escenarios por ejemplo, si en el futuro High High Satrs se necesita actualizar para buscar comentarios por otras propiedades el arbol se puede adaptar a dichos requisitos. 
 
 
 # ˚ ༘♡ ⋆SICT0303B: Implementa acciones científicas｡˚ ❀
