@@ -31,20 +31,39 @@ Gracias
 ### Lista Doblemente Encadenada:
 Uso: Almacenar los comentarios y calificaciones de los clientes.
 #### Operaciones:
-Agregar Comentario: O(1) (insertar al principio).
-Eliminar Comentario: O(n) (en el peor de los casos).
-Recorrer Comentarios: O(n).
+Agregar Comentario: O(1) (Es presentado en todos los casos).
+Eliminar Comentario: O(1) (en el mejor de los casos), de lo contrario O(n) (en el peor y en el promedio de los casos).
+Recorrer Comentarios: O(n) (Es presentado en todos los casos).
 ### Árbol de Búsqueda Binaria (BST):
 Uso: Clasificar y acceder a comentarios por calificación (1-5).
 Ventajas: Permite búsquedas rápidas de comentarios similares en calificación.
 #### Operaciones:
-Crear Árbol: O(n) (inicialización).
-Agregar Nodo: O(log n) en promedio (insertar comentario).
-Encontrar Nodo: O(log n) en promedio (buscar comentario por calificación).
+Crear Árbol: O(n) (inicialización, en todos los caso presenta misma complejidad).
+Agregar Nodo: O(log n) en promedio y en el mejor de los casos (insertar comentario), O(n) en el peor de los casos.
+Encontrar Nodo: O(1) en el mejor de los casos, O(log n) en promedio (buscar comentario por calificación), O(n) en el peor de los casos.
 ### Ordenamiento(QuickSort):
 Promedio: O(n log n), peor de los casos 0(n^2) aunque se puede minimizar con un pivote.
 
 
 # ˚ ༘♡ ⋆SICT0302B: Toma decisiones｡˚ ❀
 
+
+˚₊· ͟͟͞͞➳❥Selecciona un algoritmo de ordenamiento adecuado al problema y lo usa correctamente.˚₊· ͟͟͞͞➳❥
 Como mencionado anteriormente el proceso de High High Stars toma decisiones las cuales permiten adaptar a los restaurantes a las necesidades de los clientes, mejorando continuamente la experiencia y fomentando la satisfacción. No solo eso sino que en mi proyecto se utilizara la función de QuickSort. Esto se debe a que es eficiente con un promedio de complejidad de O(n log n). Lo cual lo hace eficiente para las listas grandes, también tiene un buen rendimiento con su peor caso siendo de O(n^2), pero puede ser evitado utilizando un buen pivote. 
+
+
+
+# ˚ ༘♡ ⋆SICT0303B: Implementa acciones científicas｡˚ ❀
+
+ੈ✩‧₊˚Implementa mecanismos para consultar información de las estructuras correctos y útiles dentro de un programa.ੈ✩‧₊˚
+
+El programa High High Stars tiene una busqueda de comentarios por rating, lo cual nos permite poder buscar comentarios especificos por el valor de su rating. Otro caso es que muestra los resportes ordenados, gracias al BST el cual ayuda a organizar los comentarios por ratings hace el programa más eficiente. 
+
+ੈ✩‧₊˚Implementa mecanismos de lectura de archivos correctos y útiles dentro de un programa. Usar de manera.ੈ✩‧₊˚
+
+El programa cuenta con varias funciones en las que muestra esta funcionalidad una de ellas siendo la lectura de comentarios desde archivos. Dentro del programa hay una función con el nombre de loadComments el cual lee los comentarios de un archivo.No solo eso sino que dichos comentarios estan registrados en el archivo comments.txt los cuales se leen al iniciar el programa.
+
+
+ੈ✩‧₊˚Implementa mecanismos de escritura de archivos correctos y útiles dentro de un programa. Usar de manera.ੈ✩‧₊˚
+
+ Por otra parte la función de save comments muestra escritura de comentarios en un archivo debido a que guarda los comentarios del usuario en un archivo. No solo eso sino, que al finalizar el programa el archivo de comments.txt es actualizado con la función y es guardada.
