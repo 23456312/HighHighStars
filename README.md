@@ -19,7 +19,7 @@ Paso 5: Generar informes que resuman la satisfacción del cliente, incluyendo re
 Paso 6: Evaluar la relación entre calificaciones y aspectos específicos del servicio (ej. calidad de la comida, atención).
 
 # ─── ･ ｡ﾟ☆: *.☽ Consideraciones☽.* :☆ﾟ. ───
-Project High High Stars está elaborado para solo correr utilizando el lenguaje c++, por lo tanto pueden ocurrir errores si se utiliza otro lenguaje de programación. Para poder compilar el proyecto de manera correcta se puede utilizar la siguiente función: g++ main.cpp
+Project High High Stars está elaborado para solo correr utilizando el lenguaje c++, por lo tanto pueden ocurrir errores si se utiliza otro lenguaje de programación. Para poder compilar el proyecto de manera correcta se puede utilizar la siguiente función: g++ -std=c++11 main.cpp
 
 Este lenguaje también utiliza varios archivos como el uso de main.cpp, entre otros. La utilización de Project High High Stars sin alguno de estos archivos puede provocar que el archivo no funcione como se pretende.
 
