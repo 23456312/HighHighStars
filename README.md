@@ -45,7 +45,7 @@ Encontrar Nodo: O(1) en el mejor de los casos, O(log n) en promedio (buscar come
 Promedio y mejor caso: O(n log n)
 Peor de los casos: 0(n^2) aunque se puede minimizar con un pivote.
 
-##✧Hace un análisis de complejidad correcto y completo para todos los demás componentes del programa y determina la complejidad final del programa.✧
+## ✧Hace un análisis de complejidad correcto y completo para todos los demás componentes del programa y determina la complejidad final del programa.✧
 
 ### ・❥・display Comments・❥・
 En el mejor de los casos display Comments presenta un caso de complejidad de o(n), en el caso promedio de O(n) y en el peor de los casos O(n). Debido a que es necesario recorrer la lista completa.
